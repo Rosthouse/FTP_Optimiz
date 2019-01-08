@@ -11,5 +11,23 @@ $$
 f(\vec{x}) = a_{1}x_{1} + a_{2}x_{2} + ... + a_{n}x_{n} = \sum_{j=1}^{n}a_{j}x{j} = \vec{a}^{T}\vec{x}, \vec{a} \in \mathbb{R}^{n}
 $$
 
-## Lineare Ungleichungen
+##  System von linearen Ungleichungen
+
 $\sum_{j=1}^{n} a_{j}x_{j} \leq b_{j}$ resp. $\vec{a}^{T}\vec{x} \leq \vec{b}, \vec{a} \in \mathbb{R}^{n}, \vec{b} \in \mathbb{R}$
+
+Analog zu $\geq$ und $=$
+
+## Elementare Eigenschaft
+$f: \mathbb{R}^{n} \mapsto \mathbb{R}$ (Linearität)
+
+$$
+f(\alpha\vec{x} + \beta\vec{y}) = \alpha f(\vec{x}) + \beta f(\vec{y}), \{\alpha, \beta \in \mathbb{R}^{n}\}
+$$
+
+## Lineares Program (LP)
+
+Minimiere die lineare Objective-Funkction gemäss linearen Einschränkungen
+
+| General Form                 | Canonical | Standard | Inequality |
+| ---------------------------- | --------- | -------- | ---------- |
+| $max/min \vec{c}^{T}\vec{x}$ | $hello$   | $hello$  | $hello$    |
