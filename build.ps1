@@ -3,7 +3,8 @@ param(
     [string]$output = "$PSScriptRoot\export",
     [string]$format = "pdf",
     [switch]$toc,
-    [string]$file = "*.md"
+    [string]$file = "*.md",
+    [switch]$combine
 )
 
 $pandocExe = "$pandocDir\pandoc-2.5-windows-x86_64\pandoc.exe"
@@ -50,11 +51,9 @@ if ( -not(Test-Path $output)) {
 # Generate list of all markdown files
 $documents = Get-ChildItem -Filter $file
 
-# Generate output with pandoc
-foreach ($doc in $documents) {
-    "Generating document $doc"
-    $fileName = $doc.Basename
-    & $pandocExe $doc `
+if ($combine) {
+    $fileName = "Optimize"
+    & $pandocExe $documents `
         --from markdown `
         --to (IIf ($format -eq "pdf") latex $format) `
         --standalone `
@@ -64,5 +63,23 @@ foreach ($doc in $documents) {
     (IIf ($toc) --toc "") `
 
 }
+else {
+    # Generate output with pandoc
+    foreach ($doc in $documents) {
+        "Generating document $doc"
+        $fileName = $doc.Basename
+        & $pandocExe $doc `
+            --from markdown `
+            --to (IIf ($format -eq "pdf") latex $format) `
+            --standalone `
+            --output "$output\$fileName.$format" `
+            --extract-media "$output\media" `
+            --filter pandoc-citeproc
+        (IIf ($toc) --toc "") `
+
+    }
+
+}
+
 
 Write-Output "Finished build"

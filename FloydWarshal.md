@@ -1,5 +1,9 @@
 # Floyd Warshal
 
+Löst das Problem der kürzesten Pfade für alle Vertexpaare.
+
+## Algo
+
 Für eine Tabelle $A^{i \times i}$ mit Distanzen, z.B.
 
 |       |   A   |   B   |   C   |   D   |
@@ -16,3 +20,9 @@ Für eine Tabelle $A^{i \times i}$ mit Distanzen, z.B.
    4. Erhöhe $k$ um $1$
 
 Ist die Tabelle Symmetrisch (z.B. der Graph ist ungerichtet), so muss nur die obere Hälfte der Tabelle gelöst werden. Die Resultate können dann in die untere Hälfte übertragen werden.
+
+## Hinweise
+
+- Dieser Algorithmus kann auch negative Pfade abhandeln (aber keine negativen Zyklen)
+- Braucht *Dynamische Programmierung*
+- Die längste Distanz zwischen 2 Vertices bezeichnet den Diameter des Graphen: $diam(G)$
