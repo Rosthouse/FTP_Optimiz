@@ -4,6 +4,7 @@ param(
     [string]$format = "pdf",
     [switch]$toc,
     [string]$file = "*.md",
+    [string]$metadata,
     [switch]$combine
 )
 
@@ -50,6 +51,9 @@ if ( -not(Test-Path $output)) {
 
 # Generate list of all markdown files
 $documents = Get-ChildItem -Filter $file
+if (![string]::IsNullOrEmpty($metadata)) {
+    $documents.AppendText(" $metadata")
+}
 
 if ($combine) {
     $fileName = "Optimize"

@@ -1,14 +1,4 @@
----
-papersize: a4
-documentclass: article
-header-includes:
-    - \usepackage{multicol}
-    - \newcommand{\hideFromPandoc}[1]{#1}
-    - \hideFromPandoc{
-        \let\Begin\begin
-        \let\End\end
-      }
----
+# Linear Program Forms & Conversions
 
 ## Preparations
 
@@ -43,18 +33,10 @@ $$
 
 ### Canonical Form
 
-$$
-\begin{equation*}
-    \begin{aligned}[c]
-        \text{max } \vec{c}^{T}\vec{x} \\
-        \vec{a}^{i}\vec{x} &\leq b_{i}      \\
-        x_{j} &\leq 0                       \\
-    \end{aligned}
-    
-    \begin{aligned}[c]
-        \text{min } \vec{c}^{T}\vec{x} \\
-        \vec{a}^{i}\vec{x} &\leq b_{i}      \\
-        x_{j} &\leq 0                       \\
-    \end{aligned}
-\end{equation*}
-$$
+## Transformations
+
+- $\leq \leftrightarrow \geq \mapsto \vec{a}^{(i)}*\vec{x} \leq \vec{b}^{(i)} \leftrightarrow -\vec{a}^{(i)}*\vec{x} \geq -\vec{b}^{(i)}$
+- $\leq \leftrightarrow = \mapsto \vec{a}^{(i)}*\vec{x} \leq \vec{b}^{(i)} \leftrightarrow \vec{a}^{(i)}*\vec{x} + x_{i}^{(s)} = \vec{b}^{(i)}, x_{i}^{(s)} \geq 0$
+- $\geq \leftrightarrow = \mapsto \vec{a}^{(i)}*\vec{x} \leq \vec{b}^{(i)} \leftrightarrow \vec{a}^{(i)}*\vec{x} - x_{i}^{(s)} = \vec{b}^{(i)}, x_{i}^{(s)} \geq 0$
+- $x_{j} \leq 0 \mapsto x_{j} := -\bar{x_{j}}, \bar{x_{j}} \geq 0$
+- $x_{j} \text{ free } \mapsto x_{j} := x_{j}^{+} - x_{j}^{-}$

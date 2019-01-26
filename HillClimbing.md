@@ -19,6 +19,12 @@ Retourniere:
 
 ## Varianten
 
+Immer die beste Lösung nehmen, auch wenn diese die Zielfunktion verschlechtert. Die kann zur Folge haben, dass:
+
+- wir von einem lokalen Optimum weg kommen
+- keine monotone Steigerung
+- ein Zyklus entsteht
+
 ### Stochastisches Hill-Climbing
 
 Iteriere so lange bis die Stop-Bedingung erfüllt ist.
@@ -31,11 +37,21 @@ Stop-Bedingungen:
 
 ### Kontinuierliches Hill-Climbing
 
+Start:
+    Setzte $i=0$. Die Initiale Lösung ist $x_{0}$
 
+Iteration:
+    $i \mapsto i+1$
 
+1. Teste eine zufällige Lösung $y_{i}$ aus der Nachbarschaft von $x_{i}$.
 
-Immer die beste Lösung nehmen, auch wenn diese die Zielfunktion verschlechtert. Die kann zur Folge haben, dass:
+$$
+x_{i+1} =
+\begin{cases}
+    y_{i}, & \text{if } f(y_{i}) \leq f(x_{i}) \\
+    x0_{i}, & \text{if } f(y_{i}) > f(x_{i})
+\end{cases}
+$$
 
-- wir von einem lokalen Optimum weg kommen
-- keine monotone Steigerung
-- ein Zyklus entsteht
+Stochastische Hill-Climbing ist ähnlich zum [Gradient Descent](./GradientDescent), nur dass wir keine Ableitungen gebrauchen. Somit ist dieser Algorithmus auch in diskreten Fällen zu gebrauchen.
+
