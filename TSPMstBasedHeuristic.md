@@ -20,3 +20,5 @@ Für den aktuellen Knoten s, besuchen jeden Nachbar wie folgt:
 3. Stoppe, sobald alle Kanten benutzt wurden und du zurück bei $s$ bist.
 
 ![MST Based Heuristic](images/mst_based_heuristics.png)
+
+\newpage

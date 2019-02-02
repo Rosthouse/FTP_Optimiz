@@ -1,4 +1,5 @@
 ---
 papersize: a4
-documentclass: report
+documentclass: book
+top-level-division: chapter
 ---

@@ -33,3 +33,5 @@ Minimiere die lineare Objective-Funkction gemäss linearen Einschränkungen
 | General Form                 | Canonical | Standard | Inequality |
 | ---------------------------- | --------- | -------- | ---------- |
 | $max/min \vec{c}^{T}\vec{x}$ | $hello$   | $hello$  | $hello$    |
+
+\newpage

@@ -12,3 +12,5 @@ For a function $\mathcal{f}: \mathbb{R} \rightarrow \mathbb{R}$ with $\mathcal{f
 2. Put in values for $x_{1}$. (Idealy, calculate a point where $x_{1}$ gets $0$ and $x_{2}$ gets 0).
 
 For higher dimensions, adjust accordingly, i.e. for 3 dimensions, construct a plane equation instead of a line equation.
+
+\newpage

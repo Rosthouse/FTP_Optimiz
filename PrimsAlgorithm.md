@@ -13,3 +13,5 @@ Für einen gegebenen Graphen $G(V,E)$ mit positiven Kantengewichten:
 4. Ist der Vertex $v_{e}$ noch nicht in $M$, füge den Vertex $v_{e}$ zu $M$ hinzu
 5. Ansonsten, verwerfe $e$ und wähle die nachstgünstigere Kante aus.
 6. Ist $V=M$, STOP.
+
+\newpage

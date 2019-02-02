@@ -1,5 +1,9 @@
 # Cutting Planes
 
+Berechnet eine Linearisierung für ein LP-Problem.
+
+## Algo
+
 Given a linear program in inequality form.
 
 1. Assign an index number to each inequality
@@ -13,3 +17,5 @@ Given a linear program in inequality form.
    1. Remember that you can't have fractionals. These have to be floored in the final step.
 
 ![Gomory Chvatal Cuts](images/gomory_chvatal_cuts.png)
+
+\newpage

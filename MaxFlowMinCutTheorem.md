@@ -7,3 +7,5 @@ Definition:
 
 Max-Flow Min-Cut Theorem:
     Der maximale _st_-Fluss entspricht dem minimalen WErt von allen (exponentiel vielen!) möglichen _st_-__cut__s.
+
+\newpage

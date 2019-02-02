@@ -17,3 +17,5 @@ Dies ist eine Erweiterung des [Ford Fulkerson](./FordFulkerson) Algorithmus.
    2. Falls ja, subtrahiere diese Kosten von den Gesamtkosten.
 
 ![MinCost MaxFlow](images/mincost_maxflow.png)
+
+\newpage

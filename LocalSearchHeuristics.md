@@ -48,3 +48,5 @@ Use the following table to reduce writing too much stuff:
 |        i         | $\vec{x}_{i}$ | $f(\vec{x})_{i}$  |     $N(\vec{x})$     |    Qualifier     |
 | :--------------: | :-----------: | :---------------: | :------------------: | :--------------: |
 | Index of element |    element    | the element value | Indexes of neighbors | Loc/Glob min/max |
+
+\newpage

@@ -1,7 +1,3 @@
----
-documentclass: article
-papersize: a4
----
 # Simplex Algorithm
 
 Notation: Ein Exponent in Klammer zeigt einen Index an, keine Operation, z.B. $\vec{x}^{(2)}$ oder $\vec{z}^{(i)}$
@@ -43,4 +39,6 @@ Folgende Tabelle kann für die Berechnung verwendet werden:
 
 Mit $A$, $\vec{b}$, $\vec{c}$ und $\vec{v}^{(0)}$
 
-$i$ | $B^{(i)}$ | $b_{B}^{(i)}$ | $A_{B^{(i)}}$ | $A_{B^{(i)}}^{-1}$ | $\vec{v}^{(i)}$ | $\vec{u}^{(i)}$ | $j$ | $d$ | $\lambda^{*}$ | $k$
+$i$ | $B^{(i)}$ | $b_{B}^{(i)}$ | $A_{B^{(i)}}$ | $A_{B^{(i)}}^{-1}$ | $\vec{v}^{(i)}$ | $\vec{u}^{(i)}$ | $j$ | $d^{(i)}$ |$-d^{(i)}$ | $\lambda^{*}$ | $k$
+
+\newpage

@@ -40,3 +40,5 @@ $$
 - $\geq \leftrightarrow = \mapsto \vec{a}^{(i)}*\vec{x} \leq \vec{b}^{(i)} \leftrightarrow \vec{a}^{(i)}*\vec{x} - x_{i}^{(s)} = \vec{b}^{(i)}, x_{i}^{(s)} \geq 0$
 - $x_{j} \leq 0 \mapsto x_{j} := -\bar{x_{j}}, \bar{x_{j}} \geq 0$
 - $x_{j} \text{ free } \mapsto x_{j} := x_{j}^{+} - x_{j}^{-}$
+
+\newpage

@@ -26,3 +26,5 @@ Ist die Tabelle Symmetrisch (z.B. der Graph ist ungerichtet), so muss nur die ob
 - Dieser Algorithmus kann auch negative Pfade abhandeln (aber keine negativen Zyklen)
 - Braucht *Dynamische Programmierung*
 - Die längste Distanz zwischen 2 Vertices bezeichnet den Diameter des Graphen: $diam(G)$
+
+\newpage

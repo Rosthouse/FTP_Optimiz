@@ -55,3 +55,4 @@ $$
 
 Stochastische Hill-Climbing ist ähnlich zum [Gradient Descent](./GradientDescent), nur dass wir keine Ableitungen gebrauchen. Somit ist dieser Algorithmus auch in diskreten Fällen zu gebrauchen.
 
+\newpage

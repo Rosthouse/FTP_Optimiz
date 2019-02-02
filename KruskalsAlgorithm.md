@@ -17,3 +17,5 @@ Für einen gegebenen Graphen $G(V,E)$ mit positiven Kantengewichten:
 
 - Kruskal ist ein Greedy-Algorithmus
 - Kruskal ist equivalent zum [Optmistischen Ansatz](./SpanningTrees/OptimistischerAnsatz)
+
+\newpage

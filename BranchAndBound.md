@@ -11,7 +11,7 @@ Für diesen Algorithmus wird eine Tabelle in folgender Form bereit gestellt:
 | $vol_{i}$ | $vol_{A}$ | $vol_{B}$ | $vol_{B}$ |
 | $val_{i}$ | $val_{A}$ | $val_{B}$ | $val_{B}$ |
 
-Berechne dabei für jede Spalte den Benefit $ben_{j} = \frac{vol_{i}}{val_{i}}$ und sortiere die Objekte A bis N absteigend nach $ben_{j}$ neu.
+Berechne dabei für jede Spalte den Benefit $ben_{j} = \frac{val_{i}}{vol_{i}}$ und sortiere die Objekte A bis N absteigend nach $ben_{j}$ neu.
 
 ## Node berechnen
 
@@ -40,3 +40,5 @@ Mögliche Prunings:
 - By Dominance: Upper Bound ist $\leq$ zum Globalen Optimum
 - By Optimality: Upper Bound $=$ Lower Bound
 - By Infeasibility: Volum exceeds capacity
+
+\newpage

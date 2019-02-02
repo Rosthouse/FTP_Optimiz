@@ -1,4 +1,9 @@
 # Newton Method
+
+Dieser Algorithmus ist eine Erweiterung des Gradient Descent Algorithmus.
+
+## Algo
+
 1. Calculate $f(x^{(0)})$
 2. Calculate derivation $\nabla f(x,y)=\begin{pmatrix}
     \frac{\partial^2f(x^{(i)})}{\partial x_1} \\

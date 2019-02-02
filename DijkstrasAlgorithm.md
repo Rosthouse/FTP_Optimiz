@@ -21,3 +21,5 @@ Starte mit der folgenden Tabelle um die Distanzen zu rechnen:
 | $v_{s}$ |   0    | $\infty$ | $\infty$ | $\dots$ | $\infty$ |
 
 ![Dijktsra](images/dijkstra.png)
+
+\newpage

@@ -10,4 +10,6 @@ Für einen Bipartiten Graphen sollen die Matchings berechnet werden.
 4. Für alle Kanten $E(v_{l}, v{r})$
    1. Konvertiere die Kante von einer ungerichteter Kante zu einer gerichteten Kante, nämlich von links nach rechts.
    2. Setzte die Kapazität $c=1$.
-5. Berechne nun den Maximalfluss $F_{s \rightarrow t} \in \mathbb{Z}^{+}$ mit [Ford Fulkerson](./FordFulkerson) 
+5. Berechne nun den Maximalfluss $F_{s \rightarrow t} \in \mathbb{Z}^{+}$ mit [Ford Fulkerson](#fordfulkerson)
+
+\newpage
