@@ -63,7 +63,8 @@ if ($combine) {
         --standalone `
         --output "$output\$fileName.$format" `
         --extract-media "$output\media" `
-        --filter pandoc-citeproc
+        --filter pandoc-citeproc `
+        --metadata-file "metadata.yaml" `
     (IIf ($toc) --toc "") `
 
 }
@@ -78,7 +79,8 @@ else {
             --standalone `
             --output "$output\$fileName.$format" `
             --extract-media "$output\media" `
-            --filter pandoc-citeproc
+            --filter pandoc-citeproc `
+            --metadata-file "metadata.yaml"
         (IIf ($toc) --toc "") `
 
     }

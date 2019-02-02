@@ -1,9 +1,6 @@
----
-documentclass: article
-papersize: a4
----
-
 # Branch & Bound
+
+Algorithmus um ein lineares Integer Problem zu lösen
 
 ## Neuordnung der Wertetabelle
 

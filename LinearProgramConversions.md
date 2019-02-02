@@ -1,4 +1,6 @@
-# Konvertieren von Linearen Programmen
+# Konvertieren
+
+Gibt Varianten wie man Lineare Programme ineinander umwandeln kann.
 
 ## Annahmen und Notationen
 

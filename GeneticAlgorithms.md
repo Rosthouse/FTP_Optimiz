@@ -1,5 +1,7 @@
 # Genetic Algorithms
 
+Versuchen eine Lösung durch Anlehnung an Evolutionäre Vorgänge zu suchen.
+
 ## Terminologie
 
 Individual:
