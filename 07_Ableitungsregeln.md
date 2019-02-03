@@ -1,7 +1,3 @@
----
-header-includes: |
-    \usepackage{mathtools}
----
 # Ableitungsregeln
 
 Ableitung eines Vielfachen:

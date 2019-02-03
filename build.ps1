@@ -65,6 +65,7 @@ if ($combine) {
         --extract-media "$output\media" `
         --filter pandoc-citeproc `
         --metadata-file "metadata.yaml" `
+        --template "template.tex" `
     (IIf ($toc) --toc "") `
 
 }

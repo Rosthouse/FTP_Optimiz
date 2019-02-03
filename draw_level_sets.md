@@ -1,7 +1,3 @@
----
-documentclass: article
-papersize: a4
----
 # Draw Level Sets
 
 For a function $\mathcal{f}: \mathbb{R} \rightarrow \mathbb{R}$ with $\mathcal{f}(\vec{x})=\vec{c}^{T}\vec{x}$, $\vec{c}=(c_{1},c_{2})$ and level set $\alpha$
