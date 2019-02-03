@@ -48,4 +48,3 @@ Für $\nabla f(\vec{x^{(i)}}$ und $H_{f}^{-1}$:
 | :---------------: | :-------: | :------------------------: | :-------------: | :------------: | :-------------------------: |
 | Iterationsschritt |   Punkt   | Abgeleiteter funktiosnwert | 1ster Parameter | 2ter Parameter | neue angenähjerte Ableitung |
 
-\newpage

@@ -24,4 +24,3 @@ Use the following table to keep track of your calculations:
 |  $i$  | ${x^{(i)}}$ | $f(x^{(i)})$ | $\nabla f(x^{(i)})$ | $H_{f}(x^{(i)})$ | $H_{f}(x^{(i)})^{-1}$ |
 | :---: | :---------: | :----------: | :-----------------: | :--------------: | :-------------------: |
 
-\newpage

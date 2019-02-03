@@ -21,4 +21,3 @@ Für den aktuellen Knoten s, besuchen jeden Nachbar wie folgt:
 
 ![MST Based Heuristic](images/mst_based_heuristics.png)
 
-\newpage

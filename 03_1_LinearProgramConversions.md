@@ -34,4 +34,3 @@ Minimiere die lineare Objective-Funkction gemäss linearen Einschränkungen
 | ---------------------------- | --------- | -------- | ---------- |
 | $max/min \vec{c}^{T}\vec{x}$ | $hello$   | $hello$  | $hello$    |
 
-\newpage

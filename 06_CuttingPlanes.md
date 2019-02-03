@@ -18,4 +18,3 @@ Given a linear program in inequality form.
 
 ![Gomory Chvatal Cuts](images/gomory_chvatal_cuts.png)
 
-\newpage

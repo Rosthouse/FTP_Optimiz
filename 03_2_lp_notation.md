@@ -41,4 +41,3 @@ $$
 - $x_{j} \leq 0 \mapsto x_{j} := -\bar{x_{j}}, \bar{x_{j}} \geq 0$
 - $x_{j} \text{ free } \mapsto x_{j} := x_{j}^{+} - x_{j}^{-}$
 
-\newpage

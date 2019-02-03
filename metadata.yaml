@@ -1,7 +1,6 @@
 ---
 papersize: a4
-documentclass: book
-# top-level-division: chapter
+documentclass: report
 geometry: margin=1cm
 author: Patrick Joos
 abstract: This document contains a descriptiv list of several algorithms uned in TSM_Optimiz. The idea is, that each algorithm is describe in such a way, that a student can just read the instructions and apply them.

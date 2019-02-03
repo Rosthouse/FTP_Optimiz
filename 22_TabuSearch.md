@@ -27,4 +27,3 @@ Iterativ:
 Retourniere:
     Die beste gefundene Lösung.
 
-\newpage

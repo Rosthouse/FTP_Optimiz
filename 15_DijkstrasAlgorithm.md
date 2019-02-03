@@ -22,4 +22,3 @@ Starte mit der folgenden Tabelle um die Distanzen zu rechnen:
 
 ![Dijktsra](images/dijkstra.png)
 
-\newpage

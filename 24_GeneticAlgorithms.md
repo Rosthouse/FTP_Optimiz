@@ -36,4 +36,3 @@ Recombination:
 Start:
     Erstelle eine zufällige Population.
 
-\newpage

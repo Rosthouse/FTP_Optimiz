@@ -9,4 +9,3 @@ For a function $\mathcal{f}: \mathbb{R} \rightarrow \mathbb{R}$ with $\mathcal{f
 
 For higher dimensions, adjust accordingly, i.e. for 3 dimensions, construct a plane equation instead of a line equation.
 
-\newpage

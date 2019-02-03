@@ -60,4 +60,3 @@ $$
 \end{pmatrix}
 $$
 
-\newpage

@@ -51,4 +51,3 @@ $$
 
 Ist dieser besser als der Wert von $\beta$, so übernehmen wir diesen.
 
-\newpage

@@ -46,4 +46,3 @@ Dies ist eine Erweiterung des [Ford Fulkerson](./FordFulkerson) Algorithmus, wel
 
 ![MinCost MaxFlow](images/mincost_maxflow.png)
 
-\newpage

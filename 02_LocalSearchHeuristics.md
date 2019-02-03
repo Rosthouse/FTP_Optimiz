@@ -49,4 +49,3 @@ Use the following table to reduce writing too much stuff:
 | :--------------: | :-----------: | :---------------: | :------------------: | :--------------: |
 | Index of element |    element    | the element value | Indexes of neighbors | Loc/Glob min/max |
 
-\newpage

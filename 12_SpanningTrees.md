@@ -21,4 +21,3 @@ Für einen gegebenen Graphen $G(V,E)$ mit positiven Kantengewichten:
    2. Ist dieses redundant, entferne es aus der Liste
    3. Stoppe, wenn keine Kanten mehr entfernt werden können
 
-\newpage

@@ -41,4 +41,3 @@ Mögliche Prunings:
 - By Optimality: Upper Bound $=$ Lower Bound
 - By Infeasibility: Volum exceeds capacity
 
-\newpage

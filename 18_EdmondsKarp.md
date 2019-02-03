@@ -19,4 +19,3 @@ Der Edmond-Karps Algorithmus findet einen
 
 ![Edmonds-Karp](images/edmondkarps.png)
 
-\newpage

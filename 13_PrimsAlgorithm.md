@@ -14,4 +14,3 @@ Für einen gegebenen Graphen $G(V,E)$ mit positiven Kantengewichten:
 5. Ansonsten, verwerfe $e$ und wähle die nachstgünstigere Kante aus.
 6. Ist $V=M$, STOP.
 
-\newpage
