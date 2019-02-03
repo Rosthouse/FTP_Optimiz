@@ -1,4 +1,4 @@
-# Broyden
+# Broyden Method
 
 Für einen gegebenen Startpunkt $\vec{x}^{(0)}$ und eine Optimierungsfunktion $f(\vec{x})$
 
