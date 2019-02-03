@@ -1,4 +1,2 @@
 # Formulierung eines Optimierungsproblems
 
-
-
