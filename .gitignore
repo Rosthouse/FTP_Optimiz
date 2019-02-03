@@ -1,3 +1,9 @@
 export/*
 .vscode/
 pandoc/**
+tex2pdf.*
+# Latex templates
+template.aux
+template.fdb_latexmk
+template.fls
+template.log
