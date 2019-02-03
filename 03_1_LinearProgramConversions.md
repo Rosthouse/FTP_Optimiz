@@ -72,3 +72,5 @@ $$
     x_{j} \text{free} &\Rightarrow x_{j} := x_{j}^{+} - x_{j}^{-}, x_{j}^{+}; x_{j}^{-} \geq 0
 \end{aligned}
 $$
+
+\newpage
