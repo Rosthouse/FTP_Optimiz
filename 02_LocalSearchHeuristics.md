@@ -1,51 +1,52 @@
 # Local Search Metaheuristisc
 
-Given:
+Gegeben:
 
-- A feasible solution: $\vec{x} \in S$
-- A neighborhood function: $\vec{x} \mapsto N(\vec{x})$
+- Eine gültige Lösung: $\vec{x} \in S$
+- Eine Nachbarschaftsfunktion: $\vec{x} \mapsto N(\vec{x})$
 
-Repeat:
+Wiederhole:
 
-1. Search for the best solution $\vec{x}'$ in the neighborhood $N(\vec{x})$
-2. If $\vec{x}' = \vec{x}$ STOP
-3. Otherwise, set $\vec{x} := \vec{x}'$ and goto 1.
+1. Suche die beste Lösung für $\vec{x}'$ in der Nachbarschaft $N(\vec{x})$
+2. Ist $\vec{x}' = \vec{x}$ STOP
+3. Andernfalls, setzte $\vec{x} := \vec{x}'$ und gehe zu 1.
 
-## Possible questions
+## Mögliche Fragen
 
-Given a base set
+Gegeben ein Basisset
 
 $$
 S={\vec{x} \in \mathbb{Z}^{n}: \text{conditions}}
 $$
 
-and a function defined on this set like
+und einer Funktion auf dem Set
 
 $$
 f: S \rightarrow \mathbb{R} \text{ with } f(\vec{x})=\vec{c}^{T}\vec{x}
 $$
 
-and a neighborhood function
+und eine Nachbarschaftsfunktion
 
 $$
 N(\vec{x})={\vec{x}' \in S: \text{conditions}}
 $$
 
-Following tasks may occur:
+Folgende Aufgaben können vorkommen:
 
-1. Write down all elements & their function values
-2. Define the neighborhoods for all elements
-3. Define if an element is a
-   1. Local Minimum
-   2. Local Maximum
-   3. Global Minimum
-   4. Global Maximum
+1. Finde alle Elemente und deren Funktionswerte.
+2. Definiere für jedes Element dessen Nachbarschaft.
+3. Definiere ob ein Element folgende Eigenschaften hat:
+   1. Lokales Minimum
+   2. Lokales Maximum
+   3. Globales Minimum
+   4. Globales Maximum
 
-__Hint:__ An element that is a global maximum is always also a local maximum, same for minimum.
+__Tipp:__ Ist ein Element ein globales Maximum/Minimum, so ist es selbstverständlich auch ein lokales Maximum/Minimum.
 
-Use the following table to reduce writing too much stuff:
+Benutze folgende Tabelle um den Schreibaufwand zu reduzieren:
 
-|        i         | $\vec{x}_{i}$ | $f(\vec{x})_{i}$  |     $N(\vec{x})$     |    Qualifier     |
-| :--------------: | :-----------: | :---------------: | :------------------: | :--------------: |
-| Index of element |    element    | the element value | Indexes of neighbors | Loc/Glob min/max |
+|         i          | $\vec{x}_{i}$ | $f(\vec{x})_{i}$ |     $N(\vec{x})$      |    Qualifier     |
+| :----------------: | :-----------: | :--------------: | :-------------------: | :--------------: |
+| Index des Elements |    Element    |  Funktionswert   | Indizes der Nachbaren | Loc/Glob min/max |
 
+Notiere über der Prüfung, dass in der Nachbarschaftstabelle nur die Indizes der Nachbarselemente stehen, nicht die Elemente selbst.

@@ -1,18 +1,23 @@
 # Gradient descent
 
-For $\beta$, some $f: \mathbb{R}^{n} \rightarrow \mathbb{R}$ and a starting point $\vec{x}^{(0)}$
+Für $\beta$, eine Funktion $f: \mathbb{R}^{n} \rightarrow \mathbb{R}$ und einem Startpunkt $\vec{x}^{(0)}$
 
-1. Calculate $\triangledown f(\vec{x})$
-2. Calculate $f(\vec{x}^{(i)})$
-3. Set $\beta=1$
-4. C
+1. Berechne $\nabla f(\vec{x})$
+2. Berechne $f(\vec{x}^{(i)})$
+3. Setzte $\beta=1$
+4. Berechne $\vec{x}'$
+5. Berechne $f(\vec{x}')$
+6. Ist $f(\vec{x}') f(\vec{x}^{(i)})$
+   1. Setze $\beta = \frac{\beta}{2}$
+   2. Gehe zu 1.
+7. Ansonsten ist ein besserer Wert gefunden und $\vec{x}^{(i+1)} = \vec{x}'$
 
 Use the following table for your calculations:
 
-| $\beta$ |                $\vec{x}^{(i)}$                 |           $\triangledown f(\vec{x}^{(i+1)})$           | $\vec{x}'=\vec{x}_{(i)} - \beta \triangledown f(x^{(i+1)})$ | $f(\vec{x}')$ |
-| :-----: | :--------------------------------------------: | :----------------------------------------------------: | :---------------------------------------------------------: | :-----------: |
-|    0    | $\begin{pmatrix} x_{1} \\ x_{2} \end{pmatrix}$ |                           -                            |       $\begin{pmatrix} x_{1} \\ x_{2} \end{pmatrix}$        | $\mathbb{R}$  |
-|    1    | $\begin{pmatrix} x_{1} \\ x_{2} \end{pmatrix}$ | $\begin{pmatrix} f'(x_{1}) \\ f'(x_{2}) \end{pmatrix}$ |      $\begin{pmatrix} x'_{1} \\ x'_{2} \end{pmatrix}$       | $\mathbb{R}$  |
+| $\beta$ |                $\vec{x}^{(i)}$                 |              $\nabla f(\vec{x}^{(i+1)})$               | $\vec{x}'=\vec{x}_{(i)} - \beta \nabla f(x^{(i+1)})$ | $f(\vec{x}')$ |
+| :-----: | :--------------------------------------------: | :----------------------------------------------------: | :--------------------------------------------------: | :-----------: |
+|    0    | $\begin{pmatrix} x_{1} \\ x_{2} \end{pmatrix}$ |                           -                            |    $\begin{pmatrix} x_{1} \\ x_{2} \end{pmatrix}$    | $\mathbb{R}$  |
+|    1    | $\begin{pmatrix} x_{1} \\ x_{2} \end{pmatrix}$ | $\begin{pmatrix} f'(x_{1}) \\ f'(x_{2}) \end{pmatrix}$ |   $\begin{pmatrix} x'_{1} \\ x'_{2} \end{pmatrix}$   | $\mathbb{R}$  |
 
 ## Parabola fitting
 
@@ -46,8 +51,7 @@ $$
 Zum Schluss soll noch der Funktionswert für $\beta^{*}$ berechten werden, also 
 
 $$
-f(\vec{x}_{(i)} - \beta^{*} \triangledown f(x^{(i+1)}))
+f(\vec{x}_{(i)} - \beta^{*} \nabla f(x^{(i+1)}))
 $$
 
 Ist dieser besser als der Wert von $\beta$, so übernehmen wir diesen.
-

@@ -4,22 +4,22 @@ Dieser Algorithmus ist eine Erweiterung des Gradient Descent Algorithmus.
 
 ## Algo
 
-1. Calculate $f(x^{(0)})$
-2. Calculate derivation $\nabla f(x,y)=\begin{pmatrix}
+1. Berechne $f(x^{(0)})$
+2. Berechne die Ableitung $\nabla f(x,y)=\begin{pmatrix}
     \frac{\partial^2f(x^{(i)})}{\partial x_1} \\
     \frac{\partial^2f(x^{(i)})}{\partial x_2}
 \end{pmatrix}$
-3. Calculate hessian Matrix $H_f(x^{(i)})=\begin{pmatrix}
+3. Berechne hessische Matrix $H_f(x^{(i)})=\begin{pmatrix}
     \frac{\partial^2f(x^{(i)})}{\partial x_1 \partial x_1} & \frac{\partial^2f(x^{(i)})}{\partial x_1 \partial x_2} \\
     \frac{\partial^2f(x^{(i)})}{\partial x_2 \partial x_1} & \frac{\partial^2f(x^{(i)})}{\partial x_2 \partial x_2}
 \end{pmatrix}$
-4. While $f(x^{(0)}) < f(x^{(i)})$
-   1. Calculate $\nabla f(x^{(i)})$
-   2. Calculate $H_{f}(x^{(i)})$ and inverse it
-   3. Calculate $x^{(i)} = x^{(i-1)} - (H_{f}(x^{(i-1)})) * \nabla f(x^{(i-1)})$
-   4. Calculate $f(x^{(i)})$
+4. Während $f(x^{(0)}) < f(x^{(i)})$ ist
+   1. Berechne $\nabla f(x^{(i)})$
+   2. Berechne $H_{f}(x^{(i)})$ und invertiere diese.
+   3. Berechne $x^{(i)} = x^{(i-1)} - (H_{f}(x^{(i-1)})) * \nabla f(x^{(i-1)})$
+   4. Berechne $f(x^{(i)})$
 
-Use the following table to keep track of your calculations:
+Brauche folgende Tabelle um deinen Fortschritt zu verfolgen:
 
 |  $i$  | ${x^{(i)}}$ | $f(x^{(i)})$ | $\nabla f(x^{(i)})$ | $H_{f}(x^{(i)})$ | $H_{f}(x^{(i)})^{-1}$ |
 | :---: | :---------: | :----------: | :-----------------: | :--------------: | :-------------------: |

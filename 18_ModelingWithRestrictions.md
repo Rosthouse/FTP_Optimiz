@@ -2,7 +2,7 @@
 
 Hat ein Graph Restriktionen, z.B. ein Knoten kann nur eine beschränkten Flow annehmen, so sind folgende Transformationen auf dem Graph anzuwenden:
 
-## Transformationen.
+## Transformationen
 
 1. Ein Vertex $x$ hat eine Beschränkung auf um $g$
    1. Füge einen Vertex $\bar{x}$ ein

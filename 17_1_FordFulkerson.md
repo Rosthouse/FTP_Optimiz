@@ -28,6 +28,12 @@ Start:
 
 ![Ford Fulkerson](images/ford_fulkerson.png)
 
+## Edmonds-Karp
+
+Dieser Algorithmus ist eine Implementation des Ford-Fulkerson Algorithmus und findet einen augmentierenden Pfad mit der kleinsten Anzahl von Kanten. Dies, indem der Pfad mit Breadth-First Search traversiert wird.
+
+![Edmonds Karp](images/edmondskarp.png)
+
 ## Min-Cost Max-Flow Algorithmus
 
 Dies ist eine Erweiterung des [Ford Fulkerson](./FordFulkerson) Algorithmus, welcher zusätzlich zum maximalen Flow noch die Kosten berechnet
