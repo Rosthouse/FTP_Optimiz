@@ -9,5 +9,6 @@ Für eine Funktion $\mathcal{f}: \mathbb{R} \rightarrow \mathbb{R}$ with $\mathc
 
 Für höhere Dimensionen muss entsprechend angepasst werden, z.B. für 3 Dimensionen, konstruiere eine Ebenengleichung statt einer Geradengleichung.
 
-
 ![Draw level sets](images/draw_level_sets.png)
+
+\newpage

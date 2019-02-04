@@ -13,3 +13,5 @@ Für einen Bipartiten Graphen sollen die Matchings berechnet werden.
 5. Berechne nun den Maximalfluss $F_{s \rightarrow t} \in \mathbb{Z}^{+}$ mit [Ford Fulkerson](#fordfulkerson)
 
 ![Bipartit Matching](images/bipartite_matching.png)
+
+\newpage

@@ -2,7 +2,10 @@
 papersize: a4
 documentclass: report
 numbersections: yes
+title: Optimierungsalgorithmen
+subtitle: Als der Taschenrechner uns verlies
 geometry: margin=1cm
 author: Patrick Joos
-abstract: This document contains a descriptiv list of several algorithms uned in TSM_Optimiz. The idea is, that each algorithm is describe in such a way, that a student can just read the instructions and apply them.
+date: 04.02.2019
+abstract: Dieses Dokument enthält die Optimierungsalgorithmen für TSM_Optimiz in einer beschreibenden Form. Es sollte möglich sein die Algorithmen zu lesen und anwenden zu können.
 ---
