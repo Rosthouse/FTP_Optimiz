@@ -36,3 +36,18 @@ Recombination:
 Start:
     Erstelle eine zufällige Population.
 
+Iterativ: 
+    Erstelle die nächste Generation nach folgenden evolutionären Prinzipien
+
+- Fitness für ein Individuum berechnen
+- Natürliche Selektion und Eltern für Reproduktion wählen
+- Rekombination
+- Mutation
+
+Wiederhole, bis Terminalkriterien erreicht sind.
+
+Ende:
+    Retourniere bestes Individuum
+
+![Genetic Algorithm](images/genetic_algorithm.png)
+
